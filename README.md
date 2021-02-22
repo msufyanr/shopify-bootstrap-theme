@@ -17,6 +17,9 @@ Our goal is to make this project the most completed, robust and of course the mo
 ## Demo 
 https://ks-bootshop.myshopify.com/
 
+## Download 
+Go to [releases](https://github.com/icetheme/ks-bootshop/releases/) and download the latest v1.x.x version which is ready for Bootstrap v4.
+
 ## Premium Shopify Themes 
 In case you are interested in our Premium Shopify Themes, please visit our website
 https://www.icetheme.com
