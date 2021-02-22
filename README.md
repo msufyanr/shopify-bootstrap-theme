@@ -90,7 +90,7 @@ This part will be documented soon.
 This part will be documented soon.
 
 ## Support
-Please submit a [new issue](https://github.com/icetheme/it-bootshop/issues/new) in case you want to submit a bug or feature request. Additionally, you may visit our [website](https://icetheme.com/) for further help.
+Please submit a [new issue](https://github.com/kondasoft/it-bootshop/issues/new) in case you want to submit a bug or feature request. Additionally, you may visit our [website](https://kondasoft.com/) for further help.
 
 ## Copyright and license
-Copyright 2020 [IceTheme.com](https://www.icetheme.com). Code released under the [MIT License](https://github.com/icetheme/it-bootshop/blob/master/LICENSE).
+Copyright 2020 [KondaSoft.com](https://www.kondasoft.com). Code released under the [MIT License](https://github.com/kondasoft/it-bootshop/blob/master/LICENSE).
