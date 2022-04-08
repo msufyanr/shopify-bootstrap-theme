@@ -1,6 +1,233 @@
 {
-  "current": "Default",
+  "current": {
+    "sections": {
+      "announcement": {
+        "type": "announcement",
+        "settings": {
+          "announcement": "<p>Announce something important here<\/p>",
+          "color": "bg-dark text-white"
+        }
+      },
+      "navbar": {
+        "type": "navbar",
+        "settings": {
+          "color": "bg-dark navbar-dark",
+          "container": true,
+          "desktop_menu": "main-menu",
+          "mobile_menu": "main-menu"
+        }
+      },
+      "footer": {
+        "type": "footer",
+        "blocks": {
+          "fdfe9e7b-33cd-47c8-87d0-e6ff2c237dc0": {
+            "type": "menu",
+            "settings": {
+              "menu": "footer",
+              "title": ""
+            }
+          }
+        },
+        "block_order": [
+          "fdfe9e7b-33cd-47c8-87d0-e6ff2c237dc0"
+        ],
+        "settings": {
+          "color": "bg-light text-body",
+          "container": true,
+          "show_social_icons": true,
+          "row_xs": 2,
+          "row_sm": 3,
+          "row_xl": 4
+        }
+      },
+      "16494579858866f2f5": {
+        "type": "carousel",
+        "blocks": {
+          "16494579858866f2f5-0": {
+            "type": "slide",
+            "settings": {
+              "image_height": "640",
+              "caption": "Caption for the 1st slide"
+            }
+          },
+          "16494579858866f2f5-1": {
+            "type": "slide",
+            "settings": {
+              "image_height": "640",
+              "caption": "Caption for the 2nd slide"
+            }
+          },
+          "a7faf4c0-532a-4906-b168-119a1faf0205": {
+            "type": "slide",
+            "settings": {
+              "image_height": "640",
+              "caption": ""
+            }
+          },
+          "942d1601-55ab-412f-93cc-1bfa8266ccc6": {
+            "type": "slide",
+            "settings": {
+              "image_height": "640",
+              "caption": ""
+            }
+          },
+          "92aeb247-f1ee-4bf1-802e-02afb57b53f6": {
+            "type": "slide",
+            "settings": {
+              "image_height": "640",
+              "caption": ""
+            }
+          }
+        },
+        "block_order": [
+          "16494579858866f2f5-0",
+          "16494579858866f2f5-1",
+          "a7faf4c0-532a-4906-b168-119a1faf0205",
+          "942d1601-55ab-412f-93cc-1bfa8266ccc6",
+          "92aeb247-f1ee-4bf1-802e-02afb57b53f6"
+        ],
+        "settings": {
+          "animation": "slide",
+          "autoplay": true,
+          "margin_top": 0,
+          "margin_bottom": 8
+        }
+      },
+      "16494580509c39e5aa": {
+        "type": "separator",
+        "settings": {
+          "container": true,
+          "transparent": false,
+          "margin_top": 7,
+          "margin_bottom": 7
+        }
+      },
+      "1649458070927d2b7a": {
+        "type": "featured-products",
+        "settings": {
+          "collection": "",
+          "container": true,
+          "limit": 8,
+          "title": "Featured Products",
+          "img_width": "480",
+          "img_height": "480",
+          "img_thumbnail": true,
+          "row_xs": 2,
+          "row_sm": 3,
+          "row_xl": 4,
+          "margin_top": 0,
+          "margin_bottom": 8
+        }
+      },
+      "164945808681296539": {
+        "type": "featured-collections",
+        "blocks": {
+          "4411ef82-833c-495e-aa81-8ec4c8c0482b": {
+            "type": "collection",
+            "settings": {
+              "collection": ""
+            }
+          },
+          "9ca92759-4085-4ecd-9061-27530d0d7b5f": {
+            "type": "collection",
+            "settings": {
+              "collection": ""
+            }
+          },
+          "e439f86b-bc6c-4bbc-ae31-4510d5e57deb": {
+            "type": "collection",
+            "settings": {
+              "collection": ""
+            }
+          },
+          "28b7530d-3517-4d85-97b3-d5350d6eed44": {
+            "type": "collection",
+            "settings": {
+              "collection": ""
+            }
+          },
+          "30e65b55-b8c2-4486-a31a-c1d195740510": {
+            "type": "collection",
+            "settings": {
+              "collection": ""
+            }
+          },
+          "dfe29f5b-fff6-4a0b-ac05-883431ce2e38": {
+            "type": "collection",
+            "settings": {
+              "collection": ""
+            }
+          }
+        },
+        "block_order": [
+          "4411ef82-833c-495e-aa81-8ec4c8c0482b",
+          "9ca92759-4085-4ecd-9061-27530d0d7b5f",
+          "e439f86b-bc6c-4bbc-ae31-4510d5e57deb",
+          "28b7530d-3517-4d85-97b3-d5350d6eed44",
+          "30e65b55-b8c2-4486-a31a-c1d195740510",
+          "dfe29f5b-fff6-4a0b-ac05-883431ce2e38"
+        ],
+        "settings": {
+          "title": "Featured Collections",
+          "container": true,
+          "img_width": "480",
+          "img_height": "480",
+          "img_thumbnail": true,
+          "row_xs": 2,
+          "row_sm": 2,
+          "row_xl": 3,
+          "margin_top": 0,
+          "margin_bottom": 8
+        }
+      },
+      "16494580921807908a": {
+        "type": "featured-articles",
+        "blocks": {
+          "465bb6ff-6764-4ec2-8cc6-750d03058708": {
+            "type": "article",
+            "settings": {
+              "article": ""
+            }
+          },
+          "0f8cf759-ea7b-414b-a3b5-47353b4cca0d": {
+            "type": "article",
+            "settings": {
+              "article": ""
+            }
+          }
+        },
+        "block_order": [
+          "465bb6ff-6764-4ec2-8cc6-750d03058708",
+          "0f8cf759-ea7b-414b-a3b5-47353b4cca0d"
+        ],
+        "settings": {
+          "container": true,
+          "title": "Featured Articles",
+          "img_width": "480",
+          "img_height": "320",
+          "img_thumbnail": true,
+          "title_size": "h5",
+          "show_author": true,
+          "show_date": true,
+          "show_excerpt": true,
+          "show_posted_in": true,
+          "show_readmore": true,
+          "show_comments": true,
+          "margin_top": 0,
+          "margin_bottom": 6
+        }
+      }
+    },
+    "content_for_index": [
+      "16494579858866f2f5",
+      "16494580509c39e5aa",
+      "1649458070927d2b7a",
+      "164945808681296539",
+      "16494580921807908a"
+    ]
+  },
   "presets": {
-    "Default": { }
+    "Default": {
+    }
   }
 }
