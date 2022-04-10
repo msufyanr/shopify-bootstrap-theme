@@ -173,6 +173,28 @@
           "img_height": "480",
           "img_thumbnail": true
         }
+      },
+      "product-template": {
+        "type": "product-template",
+        "settings": {
+          "title_size": "display-6",
+          "show_social_sharing": true,
+          "img_width": "960",
+          "img_height": "960"
+        }
+      },
+      "product-recommendations": {
+        "type": "product-recommendations",
+        "settings": {
+          "limit": 4,
+          "title": "Recommended Products",
+          "img_width": "480",
+          "img_height": "480",
+          "img_thumbnail": true,
+          "row_xs": 2,
+          "row_sm": 3,
+          "row_xl": 4
+        }
       }
     },
     "content_for_index": [
