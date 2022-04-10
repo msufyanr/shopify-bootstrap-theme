@@ -61,22 +61,15 @@
           "942d1601-55ab-412f-93cc-1bfa8266ccc6": {
             "type": "slide",
             "settings": {
-              "image_height": "640",
-              "caption": ""
-            }
-          },
-          "92aeb247-f1ee-4bf1-802e-02afb57b53f6": {
-            "type": "slide",
-            "settings": {
-              "image_height": "640",
+              "image": "shopify:\/\/shop_images\/WhatsApp_Image_2022-04-08_at_12.43.02_PM.jpg",
+              "image_height": "850",
               "caption": ""
             }
           }
         },
         "block_order": [
           "a7faf4c0-532a-4906-b168-119a1faf0205",
-          "942d1601-55ab-412f-93cc-1bfa8266ccc6",
-          "92aeb247-f1ee-4bf1-802e-02afb57b53f6"
+          "942d1601-55ab-412f-93cc-1bfa8266ccc6"
         ],
         "settings": {
           "animation": "slide",
