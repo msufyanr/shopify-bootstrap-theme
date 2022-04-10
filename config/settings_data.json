@@ -182,6 +182,47 @@
           "img_height": "480",
           "img_thumbnail": true
         }
+      },
+      "product-template": {
+        "type": "product-template",
+        "blocks": {
+          "911ac5b6-7176-487a-bcbc-fbe9ac353519": {
+            "type": "description",
+            "settings": {
+              "title": "Details"
+            }
+          },
+          "e9847397-5bb0-4ffc-8198-dff5c762a4aa": {
+            "type": "richtext",
+            "settings": {
+              "title": "Rich text",
+              "description": ""
+            }
+          }
+        },
+        "block_order": [
+          "911ac5b6-7176-487a-bcbc-fbe9ac353519",
+          "e9847397-5bb0-4ffc-8198-dff5c762a4aa"
+        ],
+        "settings": {
+          "title_size": "display-2",
+          "show_social_sharing": true,
+          "img_width": "960",
+          "img_height": "960"
+        }
+      },
+      "product-recommendations": {
+        "type": "product-recommendations",
+        "settings": {
+          "limit": 4,
+          "title": "Recommended Products",
+          "img_width": "480",
+          "img_height": "480",
+          "img_thumbnail": true,
+          "row_xs": 2,
+          "row_sm": 3,
+          "row_xl": 4
+        }
       }
     },
     "content_for_index": [
