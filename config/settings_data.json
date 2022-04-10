@@ -1,8 +1,8 @@
 {
   "current": {
-    "share_twitter": false,
-    "share_pinterest": false,
-    "share_email": false,
+    "share_twitter": true,
+    "share_pinterest": true,
+    "share_email": true,
     "social_facebook": "https:\/\/fb.com\/OfficialRaziaBano",
     "social_instagram": "https:\/\/instagram.com\/officialraziabano",
     "checkout_logo_image": "shopify:\/\/shop_images\/Asset_9.png",
@@ -10,7 +10,7 @@
       "announcement": {
         "type": "announcement",
         "settings": {
-          "announcement": "<p>Announce something important here<\/p>",
+          "announcement": "<p>Eid Collection 2022 - Luxury pret released<\/p>",
           "color": "bg-dark text-white"
         }
       },
@@ -19,7 +19,7 @@
         "settings": {
           "color": "bg-dark navbar-dark",
           "container": true,
-          "logo": "shopify:\/\/shop_images\/Asset_13.png",
+          "logo": "shopify:\/\/shop_images\/Asset_10.png",
           "desktop_menu": "main-menu",
           "mobile_menu": "main-menu"
         }
@@ -53,6 +53,7 @@
           "a7faf4c0-532a-4906-b168-119a1faf0205": {
             "type": "slide",
             "settings": {
+              "image": "shopify:\/\/shop_images\/WhatsApp_Image_2022-04-08_at_12.43.10_PM.jpg",
               "image_height": "640",
               "caption": ""
             }
@@ -60,11 +61,12 @@
           "942d1601-55ab-412f-93cc-1bfa8266ccc6": {
             "type": "slide",
             "settings": {
+              "image": "shopify:\/\/shop_images\/WhatsApp_Image_2022-04-08_at_12.43.02_PM.jpg",
               "image_height": "640",
               "caption": ""
             }
           },
-          "92aeb247-f1ee-4bf1-802e-02afb57b53f6": {
+          "189d540d-1b04-48bc-a8a9-27e9df3009e4": {
             "type": "slide",
             "settings": {
               "image_height": "640",
@@ -75,7 +77,7 @@
         "block_order": [
           "a7faf4c0-532a-4906-b168-119a1faf0205",
           "942d1601-55ab-412f-93cc-1bfa8266ccc6",
-          "92aeb247-f1ee-4bf1-802e-02afb57b53f6"
+          "189d540d-1b04-48bc-a8a9-27e9df3009e4"
         ],
         "settings": {
           "animation": "slide",
@@ -122,13 +124,20 @@
           "dfe29f5b-fff6-4a0b-ac05-883431ce2e38": {
             "type": "collection",
             "settings": {
-              "collection": "ready-to-wear"
+              "collection": "pret"
+            }
+          },
+          "dde6cd6f-d2e8-40ec-b07a-51724664f446": {
+            "type": "collection",
+            "settings": {
+              "collection": "festive"
             }
           }
         },
         "block_order": [
           "30e65b55-b8c2-4486-a31a-c1d195740510",
-          "dfe29f5b-fff6-4a0b-ac05-883431ce2e38"
+          "dfe29f5b-fff6-4a0b-ac05-883431ce2e38",
+          "dde6cd6f-d2e8-40ec-b07a-51724664f446"
         ],
         "settings": {
           "title": "Featured Collections",
@@ -176,8 +185,19 @@
       },
       "product-template": {
         "type": "product-template",
+        "blocks": {
+          "911ac5b6-7176-487a-bcbc-fbe9ac353519": {
+            "type": "description",
+            "settings": {
+              "title": "Product Description"
+            }
+          }
+        },
+        "block_order": [
+          "911ac5b6-7176-487a-bcbc-fbe9ac353519"
+        ],
         "settings": {
-          "title_size": "display-6",
+          "title_size": "display-2",
           "show_social_sharing": true,
           "img_width": "960",
           "img_height": "960"
