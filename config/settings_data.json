@@ -53,7 +53,8 @@
           "a7faf4c0-532a-4906-b168-119a1faf0205": {
             "type": "slide",
             "settings": {
-              "image_height": "640",
+              "image": "shopify:\/\/shop_images\/WhatsApp_Image_2022-04-08_at_12.43.10_PM.jpg",
+              "image_height": "850",
               "caption": ""
             }
           },
