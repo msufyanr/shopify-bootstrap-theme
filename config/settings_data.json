@@ -54,7 +54,7 @@
             "type": "slide",
             "settings": {
               "image": "shopify:\/\/shop_images\/WhatsApp_Image_2022-04-08_at_12.43.10_PM.jpg",
-              "image_height": "850",
+              "image_height": "640",
               "caption": ""
             }
           },
@@ -124,19 +124,12 @@
             "settings": {
               "collection": "festive"
             }
-          },
-          "05b7538c-cf52-4637-a287-25f0ada35622": {
-            "type": "collection",
-            "settings": {
-              "collection": "ready-to-wear"
-            }
           }
         },
         "block_order": [
           "30e65b55-b8c2-4486-a31a-c1d195740510",
           "dfe29f5b-fff6-4a0b-ac05-883431ce2e38",
-          "dde6cd6f-d2e8-40ec-b07a-51724664f446",
-          "05b7538c-cf52-4637-a287-25f0ada35622"
+          "dde6cd6f-d2e8-40ec-b07a-51724664f446"
         ],
         "settings": {
           "title": "Featured Collections",
