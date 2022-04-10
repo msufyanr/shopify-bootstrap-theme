@@ -1,5 +1,10 @@
 {
   "current": {
+    "share_twitter": false,
+    "share_pinterest": false,
+    "social_facebook": "https:\/\/fb.com\/OfficialRaziaBano",
+    "social_instagram": "https:\/\/instagram.com\/officialraziabano",
+    "checkout_logo_image": "shopify:\/\/shop_images\/Asset_9.png",
     "sections": {
       "announcement": {
         "type": "announcement",
@@ -44,20 +49,6 @@
       "16494579858866f2f5": {
         "type": "carousel",
         "blocks": {
-          "16494579858866f2f5-0": {
-            "type": "slide",
-            "settings": {
-              "image_height": "640",
-              "caption": "Caption for the 1st slide"
-            }
-          },
-          "16494579858866f2f5-1": {
-            "type": "slide",
-            "settings": {
-              "image_height": "640",
-              "caption": "Caption for the 2nd slide"
-            }
-          },
           "a7faf4c0-532a-4906-b168-119a1faf0205": {
             "type": "slide",
             "settings": {
@@ -81,8 +72,6 @@
           }
         },
         "block_order": [
-          "16494579858866f2f5-0",
-          "16494579858866f2f5-1",
           "a7faf4c0-532a-4906-b168-119a1faf0205",
           "942d1601-55ab-412f-93cc-1bfa8266ccc6",
           "92aeb247-f1ee-4bf1-802e-02afb57b53f6"
@@ -106,7 +95,7 @@
       "1649458070927d2b7a": {
         "type": "featured-products",
         "settings": {
-          "collection": "",
+          "collection": "frontpage",
           "container": true,
           "limit": 8,
           "title": "Featured Products",
@@ -123,30 +112,6 @@
       "164945808681296539": {
         "type": "featured-collections",
         "blocks": {
-          "4411ef82-833c-495e-aa81-8ec4c8c0482b": {
-            "type": "collection",
-            "settings": {
-              "collection": ""
-            }
-          },
-          "9ca92759-4085-4ecd-9061-27530d0d7b5f": {
-            "type": "collection",
-            "settings": {
-              "collection": ""
-            }
-          },
-          "e439f86b-bc6c-4bbc-ae31-4510d5e57deb": {
-            "type": "collection",
-            "settings": {
-              "collection": ""
-            }
-          },
-          "28b7530d-3517-4d85-97b3-d5350d6eed44": {
-            "type": "collection",
-            "settings": {
-              "collection": ""
-            }
-          },
           "30e65b55-b8c2-4486-a31a-c1d195740510": {
             "type": "collection",
             "settings": {
@@ -161,10 +126,6 @@
           }
         },
         "block_order": [
-          "4411ef82-833c-495e-aa81-8ec4c8c0482b",
-          "9ca92759-4085-4ecd-9061-27530d0d7b5f",
-          "e439f86b-bc6c-4bbc-ae31-4510d5e57deb",
-          "28b7530d-3517-4d85-97b3-d5350d6eed44",
           "30e65b55-b8c2-4486-a31a-c1d195740510",
           "dfe29f5b-fff6-4a0b-ac05-883431ce2e38"
         ],
@@ -183,24 +144,6 @@
       },
       "16494580921807908a": {
         "type": "featured-articles",
-        "blocks": {
-          "465bb6ff-6764-4ec2-8cc6-750d03058708": {
-            "type": "article",
-            "settings": {
-              "article": ""
-            }
-          },
-          "0f8cf759-ea7b-414b-a3b5-47353b4cca0d": {
-            "type": "article",
-            "settings": {
-              "article": ""
-            }
-          }
-        },
-        "block_order": [
-          "465bb6ff-6764-4ec2-8cc6-750d03058708",
-          "0f8cf759-ea7b-414b-a3b5-47353b4cca0d"
-        ],
         "settings": {
           "container": true,
           "title": "Featured Articles",
