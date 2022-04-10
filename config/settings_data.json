@@ -1,8 +1,8 @@
 {
   "current": {
-    "share_twitter": false,
-    "share_pinterest": false,
-    "share_email": false,
+    "share_twitter": true,
+    "share_pinterest": true,
+    "share_email": true,
     "social_facebook": "https:\/\/fb.com\/OfficialRaziaBano",
     "social_instagram": "https:\/\/instagram.com\/officialraziabano",
     "checkout_logo_image": "shopify:\/\/shop_images\/Asset_9.png",
