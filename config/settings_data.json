@@ -65,11 +65,19 @@
               "image_height": "640",
               "caption": ""
             }
+          },
+          "189d540d-1b04-48bc-a8a9-27e9df3009e4": {
+            "type": "slide",
+            "settings": {
+              "image_height": "640",
+              "caption": ""
+            }
           }
         },
         "block_order": [
           "a7faf4c0-532a-4906-b168-119a1faf0205",
-          "942d1601-55ab-412f-93cc-1bfa8266ccc6"
+          "942d1601-55ab-412f-93cc-1bfa8266ccc6",
+          "189d540d-1b04-48bc-a8a9-27e9df3009e4"
         ],
         "settings": {
           "animation": "slide",
