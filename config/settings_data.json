@@ -161,6 +161,18 @@
           "margin_top": 0,
           "margin_bottom": 6
         }
+      },
+      "collection-template": {
+        "type": "collection-template",
+        "settings": {
+          "container": true,
+          "limit": 10,
+          "show_counter": true,
+          "show_filter": true,
+          "img_width": "480",
+          "img_height": "480",
+          "img_thumbnail": true
+        }
       }
     },
     "content_for_index": [
