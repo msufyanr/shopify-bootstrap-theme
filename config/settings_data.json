@@ -65,19 +65,11 @@
               "image_height": "640",
               "caption": "Luxury Pret - Eid Collection"
             }
-          },
-          "189d540d-1b04-48bc-a8a9-27e9df3009e4": {
-            "type": "slide",
-            "settings": {
-              "image_height": "640",
-              "caption": ""
-            }
           }
         },
         "block_order": [
           "a7faf4c0-532a-4906-b168-119a1faf0205",
-          "942d1601-55ab-412f-93cc-1bfa8266ccc6",
-          "189d540d-1b04-48bc-a8a9-27e9df3009e4"
+          "942d1601-55ab-412f-93cc-1bfa8266ccc6"
         ],
         "settings": {
           "animation": "slide",
@@ -120,24 +112,10 @@
             "settings": {
               "collection": "frontpage"
             }
-          },
-          "dfe29f5b-fff6-4a0b-ac05-883431ce2e38": {
-            "type": "collection",
-            "settings": {
-              "collection": "pret"
-            }
-          },
-          "dde6cd6f-d2e8-40ec-b07a-51724664f446": {
-            "type": "collection",
-            "settings": {
-              "collection": "festive"
-            }
           }
         },
         "block_order": [
-          "30e65b55-b8c2-4486-a31a-c1d195740510",
-          "dfe29f5b-fff6-4a0b-ac05-883431ce2e38",
-          "dde6cd6f-d2e8-40ec-b07a-51724664f446"
+          "30e65b55-b8c2-4486-a31a-c1d195740510"
         ],
         "settings": {
           "title": "Featured Collections",
@@ -150,25 +128,6 @@
           "row_xl": 3,
           "margin_top": 0,
           "margin_bottom": 8
-        }
-      },
-      "16494580921807908a": {
-        "type": "featured-articles",
-        "settings": {
-          "container": true,
-          "title": "Featured Articles",
-          "img_width": "480",
-          "img_height": "320",
-          "img_thumbnail": true,
-          "title_size": "h5",
-          "show_author": true,
-          "show_date": true,
-          "show_excerpt": true,
-          "show_posted_in": true,
-          "show_readmore": true,
-          "show_comments": true,
-          "margin_top": 0,
-          "margin_bottom": 6
         }
       },
       "collection-template": {
@@ -215,14 +174,23 @@
           "row_sm": 3,
           "row_xl": 4
         }
+      },
+      "1649878103c23f7537": {
+        "type": "separator",
+        "settings": {
+          "container": true,
+          "transparent": false,
+          "margin_top": 7,
+          "margin_bottom": 7
+        }
       }
     },
     "content_for_index": [
       "16494579858866f2f5",
       "16494580509c39e5aa",
       "1649458070927d2b7a",
-      "164945808681296539",
-      "16494580921807908a"
+      "1649878103c23f7537",
+      "164945808681296539"
     ]
   },
   "presets": {
