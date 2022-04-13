@@ -92,16 +92,16 @@
         "settings": {
           "collection": "frontpage",
           "container": true,
-          "limit": 8,
+          "limit": 20,
           "title": "Featured Products",
           "img_width": "480",
           "img_height": "480",
           "img_thumbnail": true,
           "row_xs": 2,
-          "row_sm": 3,
-          "row_xl": 4,
-          "margin_top": 0,
-          "margin_bottom": 8
+          "row_sm": 2,
+          "row_xl": 3,
+          "margin_top": 6,
+          "margin_bottom": 6
         }
       },
       "164945808681296539": {
