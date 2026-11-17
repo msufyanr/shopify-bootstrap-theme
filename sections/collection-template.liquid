@@ -93,7 +93,7 @@
                 </ul>
 
                 <!-- Pagination -->
-                {% render 'simple-pagination' with paginate: paginate %}
+                {% render 'simple-pagination' with paginate, paginate: paginate %}
 
             {% endpaginate %}
         {% endif %}
@@ -158,4 +158,13 @@
         }
     ]
 }
-{% endschema %}
+{% endschema %}{%- comment -%}
+
+This file has been rewritten to preserve the original behavior.
+
+---
+Changes:
+- from: "{% render 'simple-pagination' with paginate: paginate %}"
+  to: "{% render 'simple-pagination' with paginate, paginate: paginate %}"
+  position: 4613..4679
+{%- endcomment -%}

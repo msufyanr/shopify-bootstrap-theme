@@ -195,7 +195,7 @@
                 <!-- Social Sharing -->
                 {% if section.settings.show_social_sharing %}
                     <div class="product-social-sharing text-center mt-n1 mb-6">
-                        {% render 'social-sharing' with share_title: product.title, share_permalink: product.url, share_image: product.featured_image %}
+                        {% render 'social-sharing' with share_title, share_title: product.title, share_permalink: product.url, share_image: product.featured_image %}
                     </div>
                 {% endif %}
                     
@@ -283,3 +283,15 @@
     ]
 }
 {% endschema %}
+{% comment %}
+
+This file has been rewritten to preserve the original behavior.
+
+---
+Changes:
+- from: "{% render 'social-sharing' with share_title: product.title, share_permalink:
+    product.url, share_image: product.featured_image %}"
+  to: "{% render 'social-sharing' with share_title, share_title: product.title, share_permalink:
+    product.url, share_image: product.featured_image %}"
+  position: 10322..10463
+{% endcomment %}

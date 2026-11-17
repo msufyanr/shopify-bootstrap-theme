@@ -19,7 +19,7 @@
         <ul class=" article-list list-unstyled row row-cols-md-2">
             {% for block in section.blocks %}
                 <div class="">
-                    {% render 'article-list-item' with article: block.settings.article %}
+                    {% render 'article-list-item' with article, article: block.settings.article %}
                 </div>
             {% endfor %}
         </ul>
@@ -162,4 +162,14 @@
         }
     ]
 }
-{% endschema %}
+{% endschema %}{%- comment -%}
+
+This file has been rewritten to preserve the original behavior.
+
+---
+Changes:
+- from: "{% render 'article-list-item' with article: block.settings.article %}"
+  to: "{% render 'article-list-item' with article, article: block.settings.article
+    %}"
+  position: 863..941
+{%- endcomment -%}

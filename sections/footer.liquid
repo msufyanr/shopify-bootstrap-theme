@@ -115,21 +115,21 @@
                                         aria-label="{{ social }}">
                                         {% case social_handle %}
                                             {% when 'facebook' %}
-                                                {% render 'icon-social-facebook' with size: 20 %}
+                                                {% render 'icon-social-facebook' with size, size: 20 %}
                                             {% when 'twitter' %}
-                                                {% render 'icon-social-twitter' with size: 20 %}
+                                                {% render 'icon-social-twitter' with size, size: 20 %}
                                             {% when 'instagram' %}
-                                                {% render 'icon-social-instagram' with size: 20 %}
+                                                {% render 'icon-social-instagram' with size, size: 20 %}
                                             {% when 'pinterest' %}
-                                                {% render 'icon-social-pinterest' with size: 20 %}
+                                                {% render 'icon-social-pinterest' with size, size: 20 %}
                                             {% when 'snapchat' %}
-                                                {% render 'icon-social-snapchat' with size: 20 %}
+                                                {% render 'icon-social-snapchat' with size, size: 20 %}
                                             {% when 'youtube' %}
-                                                {% render 'icon-social-youtube' with size: 20 %}
+                                                {% render 'icon-social-youtube' with size, size: 20 %}
                                             {% when 'linkedin' %}
-                                                {% render 'icon-social-linkedin' with size: 20 %}
+                                                {% render 'icon-social-linkedin' with size, size: 20 %}
                                             {% when 'tiktok' %}
-                                                {% render 'icon-social-tiktok' with size: 20 %}
+                                                {% render 'icon-social-tiktok' with size, size: 20 %}
                                         {% endcase %}
                                     </a>
                                 </li>
@@ -264,4 +264,34 @@
         }
     ]
 }
-{% endschema %}
+{% endschema %}{%- comment -%}
+
+This file has been rewritten to preserve the original behavior.
+
+---
+Changes:
+- from: "{% render 'icon-social-facebook' with size: 20 %}"
+  to: "{% render 'icon-social-facebook' with size, size: 20 %}"
+  position: 6913..6968
+- from: "{% render 'icon-social-twitter' with size: 20 %}"
+  to: "{% render 'icon-social-twitter' with size, size: 20 %}"
+  position: 7082..7136
+- from: "{% render 'icon-social-instagram' with size: 20 %}"
+  to: "{% render 'icon-social-instagram' with size, size: 20 %}"
+  position: 7252..7308
+- from: "{% render 'icon-social-pinterest' with size: 20 %}"
+  to: "{% render 'icon-social-pinterest' with size, size: 20 %}"
+  position: 7424..7480
+- from: "{% render 'icon-social-snapchat' with size: 20 %}"
+  to: "{% render 'icon-social-snapchat' with size, size: 20 %}"
+  position: 7595..7650
+- from: "{% render 'icon-social-youtube' with size: 20 %}"
+  to: "{% render 'icon-social-youtube' with size, size: 20 %}"
+  position: 7764..7818
+- from: "{% render 'icon-social-linkedin' with size: 20 %}"
+  to: "{% render 'icon-social-linkedin' with size, size: 20 %}"
+  position: 7933..7988
+- from: "{% render 'icon-social-tiktok' with size: 20 %}"
+  to: "{% render 'icon-social-tiktok' with size, size: 20 %}"
+  position: 8101..8154
+{%- endcomment -%}

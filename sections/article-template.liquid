@@ -53,7 +53,7 @@
             </div>
         {% endif %}
         {% if section.settings.show_social_sharing %}
-            {% render 'social-sharing' with share_title: article.title, share_permalink: article.url, share_image: article.image %}
+            {% render 'social-sharing' with share_title, share_title: article.title, share_permalink: article.url, share_image: article.image %}
         {% endif %}
         {% if blog.comments_enabled? %}
             <hr class="mt-5 mb-0">
@@ -87,7 +87,7 @@
                                 </li>
                             {% endfor %}
                         </ul>
-                        {% render 'simple-pagination' with paginate: paginate %}
+                        {% render 'simple-pagination' with paginate, paginate: paginate %}
                     {% endpaginate %}
                 {% endif %}
                 {% form 'new_comment', article %}
@@ -245,4 +245,18 @@
         }
     ]
 }
-{% endschema %}
+{% endschema %}{%- comment -%}
+
+This file has been rewritten to preserve the original behavior.
+
+---
+Changes:
+- from: "{% render 'social-sharing' with share_title: article.title, share_permalink:
+    article.url, share_image: article.image %}"
+  to: "{% render 'social-sharing' with share_title, share_title: article.title, share_permalink:
+    article.url, share_image: article.image %}"
+  position: 2576..2708
+- from: "{% render 'simple-pagination' with paginate: paginate %}"
+  to: "{% render 'simple-pagination' with paginate, paginate: paginate %}"
+  position: 4460..4526
+{%- endcomment -%}

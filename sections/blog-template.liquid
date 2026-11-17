@@ -46,10 +46,10 @@
                 </div>
                 <ul class="article-list list-unstyled pb-1">
                     {% for article in blog.articles %}
-                        {% render 'article-list-item' with article: article %}
+                        {% render 'article-list-item' with article, article: article %}
                     {% endfor %}
                 </ul>
-                {% render 'simple-pagination' with paginate: paginate %}
+                {% render 'simple-pagination' with paginate, paginate: paginate %}
             {% endpaginate %}
         {% endif %}
     </div>
@@ -149,4 +149,16 @@
         }
     ]
 }
-{% endschema %}
+{% endschema %}{%- comment -%}
+
+This file has been rewritten to preserve the original behavior.
+
+---
+Changes:
+- from: "{% render 'article-list-item' with article: article %}"
+  to: "{% render 'article-list-item' with article, article: article %}"
+  position: 2517..2580
+- from: "{% render 'simple-pagination' with paginate: paginate %}"
+  to: "{% render 'simple-pagination' with paginate, paginate: paginate %}"
+  position: 2652..2718
+{%- endcomment -%}
